@@ -1,0 +1,12 @@
+title: Lost idols
+description: >
+  Lost Idols is a series of fictional copper relics from forgotten civilizations.
+  Blending speculative archaeology with science fiction, they intentionally blur historical, cultural and theological references.
+  These damaged remnants of hybrid deities, outliving their own myths, question how humans project belief into material form.
+works: 
+  - title: "Lost idol I, 2025"
+    description: "Electroplated UV resin, copper, graphite."
+    pics: [ '/works/lost_idols/1/1.jpg', '/works/lost_idols/1/2.jpg', '/works/lost_idols/1/3.jpg', '/works/lost_idols/1/4.jpg', '/works/lost_idols/1/5.jpg' ]
+  - title: "Lost idol II, 2025"
+    description: "Electroplated UV resin, copper, graphite."
+    pics: [ '/works/lost_idols/2/1.jpg', '/works/lost_idols/2/2.jpg', '/works/lost_idols/2/3.jpg', '/works/lost_idols/2/4.jpg', '/works/lost_idols/2/5.jpg' ]
