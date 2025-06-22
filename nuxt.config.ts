@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' }
   },
 
-  css: ['~/assets/css/main.css'],
+  css: ['sanitize.css/sanitize.css', '~/assets/css/main.css'],
 
   fonts: {
     families: [{ name: 'Tomarik Poster', provider: 'local' }]

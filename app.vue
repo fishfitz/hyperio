@@ -7,6 +7,12 @@ useSeoMeta({
   ogImage: 'https://hyperio.fr/home/home2-high.jpg',
   twitterCard: 'summary_large_image'
 })
+
+const { locale } = useI18n()
+
+useHead({
+  htmlAttrs: { lang: locale }
+})
 </script>
 
 <template>

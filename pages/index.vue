@@ -18,10 +18,10 @@
     <UContainer class="max-w-[900px]">
       <div class="flex flex-row items-center h-screen">
         <div class="w-full text-center">
-          <h1 class="relative inline-block p-[30px] font-title text-center text-7xl md:text-9xl tracking-tight mb-30 text-white! text-shadow-lg text-shadow-stone-900">
+          <h1 class="relative inline-block p-[30px] font-title text-center text-7xl! md:text-9xl tracking-tight mb-30 text-white! text-shadow-lg text-shadow-stone-900">
             HYPERIO
 
-            <small class="text-3xl absolute bottom-[15px] right-[45px]">
+            <small class="text-3xl! absolute bottom-[15px] right-[45px]">
               alien shapes
             </small>
           </h1>

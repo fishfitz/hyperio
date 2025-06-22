@@ -2,15 +2,29 @@
   const { locale } = useI18n()
   const { data } = await useAsyncData(() => queryCollection(`works_${locale.value}`).all())
 
+  const route = useRoute()
   const activeWork = ref()
   const items = computed(() => data.value?.toSorted?.((a, b) => a.meta.body.index - b.meta.body.index))
+  watch(items, () => {
+    if (route.query.work) {
+      activeWork.value = items.value.flatMap(item => item.meta.body.works).find(item => item.title === route.query.work)
+    }
+  }, { immediate: true, once: true })
+
+  const router = useRouter()
+  watch(activeWork, () => {
+    router.push({
+      path: '/works',
+      ...(activeWork.value ? { query: { work: activeWork.value.title } } : {})
+    })
+  })
 </script>
 
 <template>
   <div>
-    <h1 class="text-3xl md:text-6xl tracking-tight mb-15"> — {{ $t('works') }} </h1>
+    <h1 class="text-3xl! md:text-6xl! tracking-tight mb-15"> — {{ $t('works') }} </h1>
     <div v-for="{ id, meta: { body } } in items" :key="id" class="max-w-[800px] mb-6">
-      <h2 class="text-3xl pb-2"> {{ body.title }} </h2>
+      <h2 class="text-3xl! pb-2"> {{ body.title }} </h2>
       <p class="text-justify pb-6" v-html="body.description"/>
 
       <div class="pb-2 grid grid-cols-2 gap-4">
