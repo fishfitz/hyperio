@@ -4,7 +4,7 @@
     <div class="noise z-1"/>
     <div class="noise z-1"/>
 
-    <div class="pt-6 pb-14 md:px-10 text-sm md:text-2xl bg-gradient-to-b from-black/50">
+    <div class="pt-6 pb-14 md:px-10 text-sm! md:text-2xl! bg-gradient-to-b from-black/50">
       <UContainer class="flex items-center max-w-[800px]">
         <nuxt-link to="/" class="shrink-0 pr-4 opacity-95 hover:opacity-100">
           <img class="h-[35px]" src="/logo.png">
