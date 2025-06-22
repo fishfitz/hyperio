@@ -16,14 +16,15 @@
       <div class="pb-2 grid grid-cols-2 gap-4">
         <div v-for="(work, index) in body.works" :key="index">
           <a class="relative group" @click="activeWork = work">
-            <div class="bg-cover aspect-square rounded-lg mb-1" :style="{ backgroundImage: `url(${work.pics[0]})` }"/>
-            <Icon
-              class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] z-2 opacity-0 group-hover:opacity-85 transition-opacity duration-700" 
-              name="teenyicons:search-outline" 
-              size="80px"
-            />
-              <span class="hidden md:inline">—</span> {{ work.title }}
-              <Icon name="teenyicons:search-outline" size="13px" class="md:ml-2 invisible pointer-coarse:visible" />
+            <div class="bg-cover aspect-square rounded-lg mb-1 relative" :style="{ backgroundImage: `url(${work.pics[0]})` }">
+              <Icon
+                class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] z-2 opacity-0 group-hover:opacity-85 transition-opacity duration-700"
+                name="teenyicons:search-outline"
+                size="80px"
+              />
+            </div>
+            <span class="hidden md:inline"> — </span> {{ work.title }}
+            <Icon name="teenyicons:search-outline" size="13px" class="md:ml-2 invisible pointer-coarse:visible" />
           </a>
         </div>
       </div>
