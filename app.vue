@@ -15,6 +15,6 @@ useSeoMeta({
       <NuxtPage />
     </NuxtLayout>
 
-    <lang-picker/>
+    <LangPicker/>
   </UApp>
 </template>

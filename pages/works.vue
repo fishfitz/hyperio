@@ -14,7 +14,7 @@
       <p class="text-justify pb-6" v-html="body.description"/>
 
       <div class="pb-2 grid grid-cols-2 gap-4">
-        <div v-for="(work, index) in body.works" :key="index" class="pb-6">
+        <div v-for="(work, index) in body.works" :key="index">
           <a class="relative group" @click="activeWork = work">
             <div class="bg-cover aspect-square rounded-lg mb-1" :style="{ backgroundImage: `url(${work.pics[0]})` }"/>
             <Icon
@@ -22,10 +22,8 @@
               name="teenyicons:search-outline" 
               size="80px"
             />
-            <div class="absolute">
-              — {{ work.title }}
-              <Icon name="teenyicons:search-outline" size="13px" class="ml-2 invisible pointer-coarse:visible" />
-            </div>
+              <span class="hidden md:inline">—</span> {{ work.title }}
+              <Icon name="teenyicons:search-outline" size="13px" class="md:ml-2 invisible pointer-coarse:visible" />
           </a>
         </div>
       </div>
