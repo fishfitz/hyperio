@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-y-auto overflow-x-hidden w-screen h-screen">
     <div class="fixed focus opacity-30 lg:opacity-80"/>
     <div class="noise z-1"/>
     <div class="noise z-1"/>
@@ -25,7 +25,19 @@
     <UContainer class="max-w-[800px]">
       <slot/>
     </UContainer>
-
-    <lang-picker/>
   </div>
 </template>
+
+<style scoped>
+.router-link-active {
+  position: relative;
+  color: var(--color-stone-200);
+  pointer-events: none;
+
+  &:after {
+    content: '.';
+    position: absolute;
+    right: -7px;
+  }
+}
+</style>

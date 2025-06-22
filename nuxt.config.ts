@@ -19,10 +19,16 @@ export default defineNuxtConfig({
     head: {
       title: 'Hyperio',
       viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
-    }
+    },
+    layoutTransition: { name: 'layout', mode: 'out-in' },
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
 
   css: ['~/assets/css/main.css'],
+
+  fonts: {
+    families: [{ name: 'Tomarik Poster', provider: 'local' }]
+  },
 
   i18n: {
     strategy: 'no_prefix',

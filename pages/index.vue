@@ -59,8 +59,6 @@
         </div>
       </div>
     </UContainer>
-
-    <lang-picker/>
   </div>
 </template>
 

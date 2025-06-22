@@ -8,7 +8,7 @@
 
 <template>
    <a
-    class="fixed right-6 bottom-4 md:right-10 md:bottom-10 scale-150"
+    class="fixed right-6 bottom-4 md:right-10 md:bottom-10 scale-150 z-2"
     color="neutral"
     size="xl"
     @click="changeLocale"

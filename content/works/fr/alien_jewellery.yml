@@ -1,0 +1,32 @@
+title: Alien jewellery
+index: 1
+description: >
+  Cette série de bijoux biomorphiques présente des structures électroformées organiques, évoquant des créatures osseuses.
+  Les formes sont conçues pour suggérer la croissance plutôt que la construction. La collection associe l'utilisation de métaux variés et des expérimentations d'oxydation.
+
+works: 
+  - title: "Beetle"
+    description: "Résine UV électroformée, cuivre, nickel, or, argent, pierre naturelle."
+    pics: [ '/works/alien_jewellery/beetle_blue.jpg', '/works/alien_jewellery/beetle_gold.jpg', '/works/alien_jewellery/beetle_rust.jpg' ]
+  - title: "Crab"
+    description: "Résine UV électroformée, cuivre, nickel, or, argent, pierre naturelle."
+    pics: [ '/works/alien_jewellery/crab_gold.jpg', '/works/alien_jewellery/crab_blue.jpg', '/works/alien_jewellery/crab_rust.jpg' ]
+  - title: "Bee"
+    description: "Résine UV électroformée, cuivre, nickel, or, argent, pierre naturelle."
+    pics: [ '/works/alien_jewellery/bee_rust.jpg', '/works/alien_jewellery/bee_blue.jpg', '/works/alien_jewellery/bee_gold.jpg' ]
+  - title: "Sow bug"
+    description: "Résine UV électroformée, cuivre, nickel, or, pierre naturelle."
+    pics: [ '/works/alien_jewellery/cloporte_blue.jpg', '/works/alien_jewellery/cloporte_gold.jpg' ]
+  - title: "Manta"
+    description: "Résine UV électroformée, cuivre, nickel, or, argent, pierre naturelle."
+    pics: [ '/works/alien_jewellery/manta_gold.jpg', '/works/alien_jewellery/manta_blue.jpg', '/works/alien_jewellery/manta_rust.jpg' ]
+  - title: "Fish"
+    description: "Résine UV électroformée, cuivre, nickel, or, argent, pierre naturelle."
+    pics: [ '/works/alien_jewellery/fish_rust.jpg', '/works/alien_jewellery/fish_gold.jpg', '/works/alien_jewellery/fish_blue.jpg' ]
+  - title: "Moth"
+    description: "Résine UV électroformée, cuivre, nickel, or, argent, pierre naturelle."
+    pics: [ '/works/alien_jewellery/moth_blue.jpg', '/works/alien_jewellery/moth_rust.jpg', '/works/alien_jewellery/moth_gold.jpg' ]
+  - title: "Seahorse"
+    description: "Résine UV électroformée, cuivre, nickel, or, pierre naturelle."
+    pics: [ '/works/alien_jewellery/seahorse_gold.jpg' ]
+

@@ -1,0 +1,31 @@
+title: Alien jewellery
+index: 1
+description: >
+  This series of biomorphic jewelry features electroformed, organic and bone-like structures.
+  The shapes are meant to evoke growth rather than construction. The collection combines the use of diverse metals and experiments in oxidation.
+works: 
+  - title: "Beetle"
+    description: "Electroplated UV resin, copper, nickel, gold, silver, gemstone."
+    pics: [ '/works/alien_jewellery/beetle_blue.jpg', '/works/alien_jewellery/beetle_rust.jpg', '/works/alien_jewellery/beetle_gold.jpg' ]
+  - title: "Crab"
+    description: "Electroplated UV resin, copper, nickel, gold, silver, gemstone."
+    pics: [ '/works/alien_jewellery/crab_gold.jpg', '/works/alien_jewellery/crab_blue.jpg', '/works/alien_jewellery/crab_rust.jpg' ]
+  - title: "Bee"
+    description: "Electroplated UV resin, copper, nickel, gold, silver, gemstone."
+    pics: [ '/works/alien_jewellery/bee_rust.jpg', '/works/alien_jewellery/bee_blue.jpg', '/works/alien_jewellery/bee_gold.jpg' ]
+  - title: "Sow bug"
+    description: "Electroplated UV resin, copper, nickel, gold, gemstone."
+    pics: [ '/works/alien_jewellery/cloporte_blue.jpg', '/works/alien_jewellery/cloporte_gold.jpg' ]
+  - title: "Manta"
+    description: "Electroplated UV resin, copper, nickel, gold, silver, gemstone."
+    pics: [ '/works/alien_jewellery/manta_gold.jpg', '/works/alien_jewellery/manta_blue.jpg', '/works/alien_jewellery/manta_rust.jpg' ]
+  - title: "Fish"
+    description: "Electroplated UV resin, copper, nickel, gold, silver, gemstone."
+    pics: [ '/works/alien_jewellery/fish_rust.jpg', '/works/alien_jewellery/fish_gold.jpg', '/works/alien_jewellery/fish_blue.jpg' ]
+  - title: "Moth"
+    description: "Electroplated UV resin, copper, nickel, gold, silver, gemstone."
+    pics: [ '/works/alien_jewellery/moth_blue.jpg', '/works/alien_jewellery/moth_rust.jpg', '/works/alien_jewellery/moth_gold.jpg' ]
+  - title: "Seahorse"
+    description: "Electroplated UV resin, copper, nickel, gold, gemstone."
+    pics: [ '/works/alien_jewellery/seahorse_gold.jpg' ]
+
