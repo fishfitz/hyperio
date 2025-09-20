@@ -17,16 +17,16 @@
 
     <UContainer class="max-w-[900px]">
       <div class="flex flex-row items-center h-screen">
-        <div class="w-full text-center">
+        <div class="w-full text-center relative">
           <h1 class="relative inline-block p-[30px] font-title text-center text-7xl! md:text-9xl tracking-tight mb-30 text-white! text-shadow-lg text-shadow-stone-900">
             HYPERIO
 
-            <small class="text-3xl! absolute bottom-[15px] right-[45px]">
+            <small class="text-3xl! absolute bottom-[2px] right-[40px]">
               alien shapes
             </small>
           </h1>
 
-          <div class="text-center">
+          <div class="text-center mt-3">
             <menu class="text-4xl md:text-5xl leading-16 md:leading-20 tracking-tight">
               <li>
                 <NuxtLink to="/about"> {{ $t('about') }} </NuxtLink>

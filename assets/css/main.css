@@ -3,7 +3,7 @@
 
 @theme static {
   --font-sans: 'Tsukimi Rounded', sans-serif;
-  --font-title: 'Tomarik Poster', sans-serif;
+  --font-title: 'Amarante', sans-serif;
 }
 
 :root {
@@ -31,11 +31,13 @@ body {
 h1, h2 {
   color: var(--color-stone-100);
   user-select: none;
+  font-family: var(--font-title);
 }
 
 a {
   transition: all 0.2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
   cursor: pointer;
+  font-family: var(--font-title);
 }
 
 a:hover {

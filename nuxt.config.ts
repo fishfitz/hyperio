@@ -19,6 +19,13 @@ export default defineNuxtConfig({
     head: {
       title: 'Hyperio',
       viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+      link: [
+        { rel: "icon", type:"image/png", href: "/favicon-96x96.png", sizes:"96x96"},
+        { rel: "icon", type:"image/svg+xml", href: "/favicon.svg" },
+        { rel: "shortcut icon", type:"/favicon.ico" },
+        { rel: "apple-touch-icon", type:"180x180", href: "/apple-touch-icon.png" },
+        { rel: "manifest", type:"/site.webmanifest" }
+      ]
     },
     layoutTransition: { name: 'layout', mode: 'out-in' },
     pageTransition: { name: 'page', mode: 'out-in' }

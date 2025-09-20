@@ -11,7 +11,7 @@
       <ContentRenderer :value="data?.[0]" />
       
       <NuxtLink to="/works" class="mt-8 tracking-tight text-3xl! font-title">
-        ⇒ {{ $t('gallery') }}
+        <span class="text-sm inline-block -translate-y-[6px]">➤</span> {{ $t('gallery') }}
       </NuxtLink>
     </div>
 
